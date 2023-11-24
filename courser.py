@@ -31,3 +31,19 @@
 # print(digits(144))  # Should print 3
 # print(digits(1000)) # Should print 4
 # print(digits(0))    # Should print 1
+
+def digits(n):
+    count = 0
+    if n == 0:
+        return 1  # 0 has 1 digit
+
+    while n != 0:  # Complete the while loop condition
+        n //= 10  # Divide the number by 10 to discard the rightmost digit
+        count += 1  # Increment the count for each digit
+        
+    return count
+
+print(digits(25))   # Should print 2
+print(digits(144))  # Should print 3
+print(digits(1000)) # Should print 4
+print(digits(0))    # Should print 1
