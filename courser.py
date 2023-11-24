@@ -92,3 +92,19 @@ def sequence(low, high):
 
 sequence(1, 3)
 # Should print the sequence 3, 2, 1 two times, as shown above.
+
+
+# Question 5
+# Fill in the blanks to complete the “divisible” function. This function should count the number of values from 0 to the “max” parameter that are evenly divisible (no remainder) by the “divisor” parameter. Complete the code so that a function call like “divisible(100,10)” will return the number “10”.:"
+# def divisible(max, divisor):
+#     ___ # Initialize an incremental variable
+#     for ___ # Complete the for loop
+#         if x % divisor == 0:
+#             ___ # Increment the appropriate variable
+#     return count
+
+# print(divisible(100, 10)) # Should be 10
+# print(divisible(10, 3)) # Should be 4
+# print(divisible(144, 17)) # Should be 9
+# "
+
