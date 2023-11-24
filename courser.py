@@ -118,3 +118,12 @@ def divisible(max, divisor):
 print(divisible(100, 10))  # Should be 10
 print(divisible(10, 3))    # Should be 4
 print(divisible(144, 17))  # Should be 9
+
+# I want this print this 
+# print(divisible(100, 10))  # Should be 10
+# print(divisible(10, 3))    # Should be 4
+# print(divisible(144, 17))  # Should be 9
+# :"
+# 11
+# 4
+# 9
