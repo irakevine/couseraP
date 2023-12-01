@@ -163,3 +163,12 @@ print(get_word("Now we are cooking!", 5))  # Nothing
 
 
 # Let's use tuples to store information about a file: its name, its type and its size in bytes. Fill in the gaps in this code to return the size in kilobytes (a kilobyte is 1024 bytes) up to 2 decimal places. 
+
+
+def file_size(file_info):
+    _, _, size_in_bytes = file_info
+    return "{:.2f}".format(size_in_bytes / 1024)
+
+print(file_size(('Class Assignment', 'docx', 17875))) 
+print(file_size(('Notes', 'txt', 496)))  
+print(file_size(('Program', 'py', 1239)))  
