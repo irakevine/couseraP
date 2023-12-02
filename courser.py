@@ -196,3 +196,24 @@ print(odd_numbers(10))  # Should print [1, 3, 5, 7, 9]
 print(odd_numbers(11))  # Should print [1, 3, 5, 7, 9, 11]
 print(odd_numbers(1))  # Should print [1]
 print(odd_numbers(-1))  # Should print []
+
+
+# Given a list of filenames, we want to rename all the files with extension hpp to the extension h. To do this, we would like to generate a new list called newfilenames, consisting of the new filenames. Fill in the blanks in the code using any of the methods you’ve learned thus far, like a for loop or a list comprehension. 
+filenames = ["program.c", "stdio.hpp", "sample.hpp", "a.out", "math.hpp", "hpp.out"]
+
+newfilenames = [filename.replace(".hpp", ".h") if filename.endswith(".hpp") else filename for filename in filenames]
+
+print(newfilenames)
+# Should be ["program.c", "stdio.h", "sample.h", "a.out", "math.h", "hpp.out"]
+
+def pig_latin(text):
+    say = ""
+    # Separate the text into words
+    words = text.split()
+    pig_latin_words = []
+    for word in words:
+        # Create the pig latin word and add it to the list
+        pig_latin_word = word[1:] + word[0] + "ay"
+        pig_latin_words.append(pig_latin_word)
+    # Turn the list back into a phrase
+    return " ".join(pig_latin_words)
