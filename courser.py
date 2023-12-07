@@ -420,3 +420,6 @@ polo.add_item(polo.name, polo.material, 4)
 sweatpants.add_item(sweatpants.name, sweatpants.material, 6)
 current_stock = polo.Stock_by_Material("Cotton")
 print(current_stock)
+
+# It’s important to know why we’ve written a function. In the example used in the video (shown here), what is the purpose of “if len(users) > 0:” ?
+
