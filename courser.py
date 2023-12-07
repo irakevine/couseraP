@@ -275,3 +275,5 @@ def exchange_ideas(you, me):
     you.ideas = total_ideas
     me.ideas = total_ideas
     return you.ideas, me.ideas
+
+# We have two pieces of furniture: a brown wood table and a red leather couch. Fill in the blanks following the creation of each Furniture class instance, so that the describe_furniture function can format a sentence that describes these pieces as follows: "This piece of furniture is made of {color} {material}"
