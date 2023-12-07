@@ -423,3 +423,5 @@ print(current_stock)
 
 # It’s important to know why we’ve written a function. In the example used in the video (shown here), what is the purpose of “if len(users) > 0:” ?
 
+
+
