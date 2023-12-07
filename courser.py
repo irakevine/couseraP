@@ -364,3 +364,6 @@ class Person:
 some_person = Person("Alice")  
 # Call the greeting method
 print(some_person.greeting())
+
+
+# Remember our Person class from the last video? Let’s add a docstring to the greeting method. How about, “Outputs a message with the name of the person”.
