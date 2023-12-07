@@ -230,3 +230,22 @@ def guest_list(guests):
         print("{} is {} years old and works as {}.".format(name, age, profession))
 
 guest_list([('Ken', 30, "Chef"), ("Pat", 35, 'Lawyer'), ('Amanda', 25, "Engineer")])
+
+
+
+# Want to give this a go? Fill in the blanks in the code to make it print a poem.
+
+class Flower:
+  color = 'unknown'
+
+rose = Flower()
+rose.color = 'red'
+
+violet = Flower()
+violet.color = 'blue'
+
+this_pun_is_for_you = "A little Python humor!"
+
+print("Roses are {},".format(rose.color))
+print("violets are {},".format(violet.color))
+print(this_pun_is_for_you)
