@@ -377,3 +377,6 @@ class Person:
         print("Hello! My name is {name}.".format(name=self.name))
 
 help(Person.greeting)
+
+
+# What was your experience with the lab? Did anything surprise you? Did you have any trouble with the lab?
