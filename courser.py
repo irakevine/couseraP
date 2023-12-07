@@ -251,3 +251,27 @@ print("violets are {},".format(violet.color))
 print(this_pun_is_for_you)
 
 # Creating new instances of class objects can be a great way to keep track of values using attributes associated with the object. The values of these attributes can be easily changed at the object level.  The following code illustrates a famous quote by George Bernard Shaw, using objects to represent people. Fill in the blanks to make the code satisfy the behavior described in the quote. 
+
+class Person:
+    apples = 0
+    ideas = 0
+
+johanna = Person()
+johanna.apples = 1
+johanna.ideas = 1
+
+martin = Person()
+martin.apples = 2
+martin.ideas = 1
+
+def exchange_apples(you, me):
+    # Exchange all apples between 'you' and 'me'
+    you.apples, me.apples = me.apples, you.apples
+    return you.apples, me.apples
+    
+def exchange_ideas(you, me):
+    # Share and combine the total number of ideas
+    total_ideas = you.ideas + me.ideas
+    you.ideas = total_ideas
+    me.ideas = total_ideas
+    return you.ideas, me.ideas
