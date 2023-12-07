@@ -330,3 +330,8 @@ exchange_apples(johanna, martin)
 print("Johanna has {} apples and Martin has {} apples".format(johanna.apples, martin.apples))
 exchange_ideas(johanna, martin)
 print("Johanna has {} ideas and Martin has {} ideas".format(johanna.ideas, martin.ideas))
+
+
+# OK, now it’s your turn! Have a go at writing methods for a class.
+
+# Create a Dog class with dog_years based on the Piglet class shown before (one human year is about 7 dog years).
