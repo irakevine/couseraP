@@ -380,3 +380,5 @@ help(Person.greeting)
 
 
 # What was your experience with the lab? Did anything surprise you? Did you have any trouble with the lab?
+
+# Let’s expand a bit on our Clothing classes from the previous in-video question. Your mission: Finish the "Stock_by_Material" method and iterate over the amount of each item of a given material that is in stock. When you’re finished, the script should add up to 10 cotton clothing items.
